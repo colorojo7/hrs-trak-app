@@ -1,0 +1,22 @@
+.Base_WeekSummary{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.weekSummary{
+    height: 50%;
+    min-height: 200px;
+    border: rgb(173, 173, 102) 5px solid;
+    border-radius: 10px;
+    background-color: rgb(248, 248, 215);
+}
+
+.weekSummary-totalsDiv{
+    border-top: rgb(173, 173, 102) 5px solid;
+}
+.f-grow{
+    flex-grow: 1;
+}
